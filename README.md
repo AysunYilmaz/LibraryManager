@@ -22,14 +22,22 @@ mvn spring-boot:run
 
 ## Microservice has following endpoints
 
-GET /api/v1.0/books "Get All the books in the library"
-GET /api/v1.0/books/{id}    "Get book by id"
-POST /api/v1.0/books  "Adds book into library"
-DELETE /api/v1.0/books  "Removes book from library"
+    GET /api/v1.0/books "Get All the books in the library"
 
-GET /api/v1.0/lend  "Get all borrowed books"
-GET /api/v1.0/lend/{lendId} "Get borrowed book by lendId"
-GET /api/v1.0/lend/customer/{customerName}  "Get borrowed books by Customer"
-POST /api/v1.0/lend  "Borrow"
-PUT /api/v1.0/lend/extend/{lendId}  "Update expiry date of the borrowed book"
-PUT /api/v1.0/lend/return/{lendId}  "Return borrowed book"
+    GET /api/v1.0/books/{id}    "Get book by id"
+    
+    POST /api/v1.0/books  "Adds book into library"
+    
+    DELETE /api/v1.0/books  "Removes book from library"
+
+    GET /api/v1.0/lend  "Get all borrowed books"
+    
+    GET /api/v1.0/lend/{lendId} "Get borrowed book by lendId"
+    
+    GET /api/v1.0/lend/customer/{customerName}  "Get borrowed books by Customer"
+    
+    POST /api/v1.0/lend  "Borrow"
+    
+    PUT /api/v1.0/lend/extend/{lendId}  "Update expiry date of the borrowed book"
+    
+    PUT /api/v1.0/lend/return/{lendId}  "Return borrowed book"
