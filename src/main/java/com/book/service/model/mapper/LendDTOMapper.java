@@ -21,7 +21,7 @@ public interface LendDTOMapper {
 	    })
 	 LendEntity lendToLendsEntity(Lend lend);
 	
-	 Lend lendsEntityToLend(LendEntity offerEntity);
+	 Lend lendsEntityToLend(LendEntity lendEntity);
 	
 	 default List<Lend> lendsEntityListToLendList(List<LendEntity> lendEntities){
 		List<Lend> lends= new ArrayList<>();

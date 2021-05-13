@@ -22,7 +22,7 @@ public interface BookDTOMapper {
 	    })
 	 BookEntity bookToBooksEntity(Book book);
 	
-	Book booksEntityToBook(BookEntity offerEntity);
+	Book booksEntityToBook(BookEntity bookEntity);
 	
 	default List<Book> booksEntityListToBookList(List<BookEntity> bookEntities){
 		List<Book> books= new ArrayList<>();
